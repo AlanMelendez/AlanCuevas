@@ -15,12 +15,12 @@
       </button>
     </div>
     <div class="nav-menu" [ngClass]="{ activar: flag }">
-        <ul class="nav">
-          <li><button class="btn-collapse" mat-button color="basic">Blog</button></li>
-            <li><button class="btn-collapse" mat-button color="basic">Abilities</button></li>
-            <li><button class="btn-collapse" mat-button color="basic">About Me</button></li>
-            <li><button class="btn-collapse" mat-button color="basic">Proyects</button></li>
-            <li><button class="btn-collapse" mat-button color="basic">Contact</button></li>
+        <ul class="nav"> 
+          <li><a class="btn-collapse" mat-button color="basic" href="#abilites-container">Abilites</a></li>
+          <!-- <li><button class="btn-collapse" mat-button color="basic">About Me</button></li> -->
+          <li><a class="btn-collapse" mat-button color="basic" href="#proyects-container">Proyects</a></li>
+          <li><button class="btn-collapse" mat-button color="basic" disabled>Blog</button></li>
+            <li><button class="btn-collapse" mat-button color="basic" disabled>Contact</button></li>
           </ul>
     </div>
   

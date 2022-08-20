@@ -83,6 +83,7 @@
 
     margin-top: 100px;
     margin-bottom: 200px;
+    padding: 50px;
 }
 
 /* Estilos cards */
@@ -104,9 +105,7 @@
     margin: 10px;
 
 }
-.mat-card{
-    /* border: .5px solid #424242 */
-}
+
 .card-item-header{
     color: black;
     margin: 10px;
