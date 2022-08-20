@@ -1,0 +1,79 @@
+/* color imagen bro: R:198 G:255 B:0 , HEX: C6FF00*/
+*{
+   
+    font-family: Montserrat,sans-serif;
+}
+.container-welcome{
+    margin-top: 100px;
+}
+.title-welcome{
+    font-weight: 660;
+}
+.img-icons{
+    width: 40px;
+    height: 40px;
+}
+.container-img-programmer{
+    display: flex;
+    justify-content: center;
+}
+.img-programmers{
+   width: 600px;
+}
+.img-cards-habilites{
+    width: 150px;
+    height: 150px;
+}
+
+.container-elements-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.container-elements-welcome p{
+    text-align: justify;
+
+}
+
+.icon-social-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.icon-social-item{
+    margin: 5px;
+}
+.btn-cards-item{
+    background-color: #48d6efe5;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px;
+    
+}
+.btn-cards-item::before{
+    background-color: #ececec;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+
+/* estilos adicionales */
+.title{
+    font-size: 30px;
+    font-weight: 550;
+}
+.title2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.pgray{
+    color: #535a5e;
+}
+.pt-2{
+    padding-top: 0.5rem !important;
+}

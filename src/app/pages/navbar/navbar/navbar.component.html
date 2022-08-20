@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/app/Pages/navbar/navbar/navbar.component.html
 <!-- <mat-toolbar class="toolbar-nav">
   <div class="containerPadre">
     <div class="container1">
@@ -8,6 +9,32 @@
     <div class="container2">
       <span>Alan Cuevas Melendez</span>
 
+=======
+<div class="fixed-top">
+  <mat-toolbar class="toolbar-nav boxshadow" color="">
+    <div>
+      
+      <img src="assets/a.png" alt="" style="width: 40px; height:40px">
+    </div>
+
+    <div class="btn-menu">
+      <button class="btn-fn-collapse" mat-button (click)="activarBarra()">
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          fontIcon="menu"
+        ></mat-icon>
+      </button>
+    </div>
+    <div class="nav-menu" [ngClass]="{ activar: flag }">
+        <ul class="nav">
+          <li><button class="btn-collapse" mat-button color="basic">Blog</button></li>
+            <li><button class="btn-collapse" mat-button color="basic">Abilities</button></li>
+            <li><button class="btn-collapse" mat-button color="basic">About Me</button></li>
+            <li><button class="btn-collapse" mat-button color="basic">Proyects</button></li>
+            <li><button class="btn-collapse" mat-button color="basic">Contact</button></li>
+          </ul>
+>>>>>>> desarrollo:src/app/pages/navbar/navbar/navbar.component.html
     </div>
     <div class="container3">
       <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
