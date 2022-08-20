@@ -1,85 +1,49 @@
 
-.toolbar-nav{
+
+.containerPadre{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-   
 }
 
-.boxes .list-elem-nav{
-    display: flex;
-}
-
-/* Estilos para activar los elementos */
-
-.btn-menu{
+.container1{
     display: none;
 }
-
-
-
-
-
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-   
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   
-    
-    
-   
+.container3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .activar{
+    .containerPadre{
+        width: 100%;
+        display: flex;
+
+        
+      }
+    
+    .container1{
+        width: 50%;
+        display: flex;
+    }
+    .container2{
         display: none;
     }
-   .btn-menu{
-        display: flex;
-        justify-content: flex-end;
+    .container3{
         width: 100%;
-   }
-    .nav-menu ul{
-        display: block;
-        position: fixed;
-        top: 50px;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-
-        background-color: #212121;
-        
-    }
-    
-    .nav-menu ul li{
-        padding: 2rem;
         display: flex;
-        justify-content: center;
-        margin: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-
-    .btn-collapse{
-        width: 50%;
-    }
-    .btn-fn-collapse{
-        cursor: pointer;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
   
-   
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-    
 }
