@@ -7,12 +7,10 @@ import { Component, OnInit, ViewChild ,TemplateRef} from '@angular/core';
 })
 export class MainComponent implements OnInit {
   
-  @ViewChild('abilites-contain') abilites!: TemplateRef<any>;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.abilites.elementRef.nativeElement)
   }
 
 }

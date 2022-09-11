@@ -1,8 +1,10 @@
 <div class="fixed-top">
   <mat-toolbar class="toolbar-nav boxshadow" color="">
     <div>
-      
-      <img src="assets/a.png" alt="" style="width: 40px; height:40px">
+      <button class="btn" style="border: none;" [routerLink]="[menuRutas[0].ruta]" routerLinkActive="active">
+        <img src="assets/a.png" alt="" style="width: 40px; height:40px">
+
+      </button>
     </div>
 
     <div class="btn-menu">
@@ -16,13 +18,14 @@
     </div>
     <div class="nav-menu" [ngClass]="{ activar: flag }">
         <ul class="nav"> 
-          <li><a class="btn-collapse" mat-button color="basic" href="#abilites-container">Abilites</a></li>
+          <li><button class="btn-collapse" mat-button color="basic" [routerLink]="[menuRutas[0].ruta]" routerLinkActive="active" >Home</button></li>
           <!-- <li><button class="btn-collapse" mat-button color="basic">About Me</button></li> -->
-          <li><a class="btn-collapse" mat-button color="basic" href="#proyects-container">Proyects</a></li>
-          <li><button class="btn-collapse" mat-button color="basic" disabled>Blog</button></li>
+          <li><button class="btn-collapse" mat-button color="basic" [routerLink]="[menuRutas[1].ruta]" routerLinkActive="active">Blog</button></li>
             <li><button class="btn-collapse" mat-button color="basic" disabled>Contact</button></li>
           </ul>
     </div>
   
   </mat-toolbar>
+</div>
+
   

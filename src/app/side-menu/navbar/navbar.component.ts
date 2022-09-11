@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
+interface Rutas{
+  nombre: string,
+  ruta: string,
+}
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -17,5 +22,23 @@ export class NavbarComponent implements OnInit {
   activarBarra(){
     this.flag=!this.flag;
   }
+
+  menuRutas: Rutas[] =[
+
+    {
+      nombre: 'Home',
+      ruta: './home/home'
+    },
+    {
+      nombre: 'blog',
+      ruta: 'blog/inicio'
+    },
+    {
+      nombre: 'proyectos',
+      ruta: './home/home#proyects-container'
+    }
+
+
+  ]
 
 }
