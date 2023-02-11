@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { HomeComponent } from './Pages/home/home.component';
 import { NavbarComponent } from './Pages/navbar/navbar/navbar.component';
 import { MainComponent } from './Pages/main/main.component';
@@ -27,6 +28,16 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 =======
 >>>>>>> desarrollo
     MainComponent
+=======
+import { NavbarComponent } from './side-menu/navbar/navbar.component';
+import { MainComponent } from './home/main/main.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SideMenuModule } from './side-menu/side-menu.module';
+
+@NgModule({
+  declarations: [
+    AppComponent
+>>>>>>> origin/desarrollo
   ],
   imports: [
     BrowserModule,
@@ -34,6 +45,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     MaterialModule,
     FontAwesomeModule,
+    SideMenuModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

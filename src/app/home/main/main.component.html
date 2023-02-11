@@ -11,22 +11,23 @@
     >
       <h1 class="title pgray">Hi, Welcome to my website.</h1>
       <hr />
-      <p>
-        Soy Alan Cuevas, Full-Stack developer y estudiante de Ing. Informatica
+      <p class="p-welcome">
+        I'm Alan Cuevas, Full-Stack developer and computer engineering student.
       </p>
-      <p>
-        Apasionado por la tecnologia y la ciberseguridad, Paso mayormente todo
-        el tiempo programando y aprendiendo nuevas tecnologias.
+      <p class="p-welcome">
+        I'm passionate about technology and cybersecurity, I spend most of my time programming and learning new technologies.
       </p>
+      <p class="p-welcome">
+        You can find me on the following social networks, Animate and we can create cool things.      </p>
       <div class="icon-social-container">
         <div class="icon-social-item">
-          <button class="btn">
+          <a class="btn" href="https://www.instagram.com/melendezalaan/" target="_blank">
             <img
               class="img-icons"
               src="assets/icons8-instagram-96.svg"
               alt="instagram-svg"
             />
-          </button>
+          </a>
         </div>
         <div class="icon-social-item">
           <button class="btn">
@@ -68,9 +69,10 @@
 
     </div>
 </div> -->
-<div class="container py-4">
+
+<div class="container container-abilites"  id="abilites-container">
   <div class="text-center mt-5 aos-init aos-animate">
-    <span class="title text-center pgray">Abilites.</span>
+    <span class="title text-center pgray"  >Abilites.</span>
   </div>
   <hr width="100%" class="pgray" style="display:flex; justify-content:center; align-items: center;" />
   <br />
@@ -82,7 +84,7 @@
       <div class="bg-div">
         <img class="img-cards-habilites" src="assets/programacion.png" alt="">
       </div>
-      <div class="title2 pt-2">Lenguajes</div>
+      <div class="title2 pt-2"> Programming Languages </div>
       <hr width="100%" class="pgray" />
         <div class="btn-cards">
             <button class="btn btn-cards-item"> C#</button>
@@ -136,7 +138,7 @@
         <img class="img-cards-habilites" src="assets/db.png" alt="">
 
       </div>
-      <div class="title2 pt-2">Bases De Datos</div>
+      <div class="title2 pt-2">Databases</div>
       <hr width="100%" class="pgray" />
       <div class="btn-cards">
         <button class="btn btn-cards-item"> MySQL</button>
@@ -152,7 +154,7 @@
         <img class="img-cards-habilites" src="assets/sistema-operativo.png" alt="">
 
       </div>
-      <div class="title2 pt-2">Sistemas Operativos &amp; Herramientas</div>
+      <div class="title2 pt-2">O.S &amp; Development Tools</div>
       <hr width="100%" class="pgray" />
       <div class="btn-cards">
         <button class="btn btn-cards-item"> Git</button>
@@ -178,4 +180,85 @@
     </div>
     </div>
   </div>
+</div>
+
+
+<!-- PROYECTS -->
+<div class="container">
+    <div class="text-center mt-5 aos-init aos-animate">
+        <span class="title text-center pgray" id="proyects-container">Proyects.</span>
+    </div>
+      <hr width="100%" class="pgray" style="display:flex; justify-content:center; align-items: center;" />
+      <br />
+   
+    <div class="row-proyect-container">
+        <mat-card class="card-item-proyect">
+            <mat-card-header class="card-item-header">
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>SILAB</mat-card-title>
+              <mat-card-subtitle>ITSL</mat-card-subtitle>
+
+            </mat-card-header>
+            <!-- <hr width="100%" class="pgray" style="display:flex; justify-content:center; align-items: center;" /> -->
+
+            <div class="container-img-card">
+                <img mat-card-image class="img-cards-habilites"  src="assets/silab.png" alt="Photo of a Shiba Inu">
+
+            </div>
+            <mat-card-content>
+              <p>
+               Sistema para el control de prestamos en laboratorios dentro de la institucion. Dentro de este sistema se pueden ver, crear y liberar adeudos con el fin de obtener una <b>carta de no adeudo</b> para distintos tramites dentro de la institucion. 
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+                
+              <button mat-button class="btn  btn-proyect-item">Read more</button>
+              <button mat-button class="btn  btn-proyect-item">Repository</button>
+            </mat-card-actions>
+        </mat-card>
+        <mat-card class="card-item-proyect">
+            <mat-card-header class="card-item-header">
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>HeroesApp</mat-card-title>
+              <mat-card-subtitle>Proyect test.</mat-card-subtitle>
+
+            </mat-card-header>
+            <!-- <hr width="100%" class="pgray" style="display:flex; justify-content:center; align-items: center;" /> -->
+
+            <div class="container-img-card">
+                <img mat-card-image class="img-cards-habilites" src="assets/hero.jpg" alt="Photo of a Shiba Inu">
+
+            </div>
+            <mat-card-content>
+              <p>
+                CRUD Hero creada con el fin de testear API de super heroes. Donde podemos ver, buscar y crear un super heroe.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+                 
+              <button mat-button class="btn btn-proyect-item">Read more</button>
+              <button mat-button class="btn btn-proyect-item">Repository</button>
+            </mat-card-actions>
+        </mat-card>
+       
+        
+    </div>
+
+</div>
+<br>
+
+
+<!-- Footer -->
+<div class="container-footer">
+    <div class="row-footer">
+        <div>
+            <span data-v-60df5c27="">© 2022 Copyright: Alan Cuevas</span>
+        </div>
+        <div>
+            <p data-v-60df5c27="" class="m-0">Desarrollado con ❤️ &amp; con <img  src="assets/angular.png" style="width: 20px; height: 20px;"></p>
+        </div>
+        <!-- <div>
+            <span>todos los derechos bb</span>
+        </div> -->
+    </div>
 </div>

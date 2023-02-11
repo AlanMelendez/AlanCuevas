@@ -5,9 +5,13 @@ import { CommonModule } from '@angular/common';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+<<<<<<< HEAD
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 
+=======
+import {MatCardModule} from '@angular/material/card';
+>>>>>>> origin/desarrollo
 
 
 
@@ -20,8 +24,12 @@ import {MatListModule} from '@angular/material/list';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+<<<<<<< HEAD
     MatSidenavModule,
     MatListModule
+=======
+    MatCardModule
+>>>>>>> origin/desarrollo
   ]
 })
 export class MaterialModule { }
