@@ -120,6 +120,10 @@
 }
 .mat-card-content{
     height: 100px;
+    justify-content: center;
+}
+.mat-card-content p{
+  text-align: justify;
 }
 
 .card-item-header{
