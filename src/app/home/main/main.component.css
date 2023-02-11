@@ -1,7 +1,8 @@
 /* color imagen bro: R:198 G:255 B:0 , HEX: C6FF00*/
 *{
-   
+
     font-family: Montserrat,sans-serif;
+
 }
 
 .container-welcome{
@@ -27,6 +28,16 @@
     height: 200px;
 }
 
+ .img-apdacademics{
+    width: 150px !important;
+    height: 150px !important;
+    margin-bottom: 70px;
+}
+.img-apdgroup{
+  width: 150px !important;
+    height: 150px !important;
+    margin-bottom: 70px;
+}
 .container-elements-welcome{
     display: flex;
     flex-direction: column;
@@ -53,7 +64,7 @@
     font-size: 15px;
     font-weight: 400;
     margin: 5px;
-    
+
 }
 .btn-cards-item::before{
     background-color: #ececec;
@@ -123,7 +134,7 @@
 }
 
 .mat-card-actions{
-    
+
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
