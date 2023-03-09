@@ -1,3 +1,5 @@
 
 #Comando para hacer deploy
 ng deploy --base-href=/AlanCuevas/
+
+ng build --prod --base-href "https://github.com/AlanMelendez/AlanCuevas/tree/v2"
