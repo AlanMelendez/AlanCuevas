@@ -27,11 +27,17 @@
     width: 200px;
     height: 200px;
 }
+.img-ujed{
+  width: 150px;
+    height: 150px;
+    margin-bottom: 70px;
+}
+
 
  .img-apdacademics{
     width: 150px !important;
     height: 150px !important;
-    margin-bottom: 70px;
+
 }
 .img-apdgroup{
   width: 150px !important;
@@ -73,6 +79,9 @@
     margin: 5px;
 }
 
+.mat-card-content{
+  padding: 10px;
+}
 
 /* estilos adicionales */
 .title{
@@ -141,11 +150,13 @@
 
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 .mat-card-actions .btn-proyect-item{
     margin-bottom: 30px;
 }
+
 .container-img-card{
     display: flex;
     justify-content: center;

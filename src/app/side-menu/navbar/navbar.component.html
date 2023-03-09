@@ -17,15 +17,15 @@
       </button>
     </div>
     <div class="nav-menu" [ngClass]="{ activar: flag }">
-        <ul class="nav"> 
-          <li><button class="btn-collapse" mat-button color="basic" [routerLink]="[menuRutas[0].ruta]" routerLinkActive="active" >Home</button></li>
+        <ul class="nav">
+          <li><button class="btn-collapse" mat-button color="basic" [routerLink]="[menuRutas[0].ruta]" routerLinkActive="active" >Inicio</button></li>
           <!-- <li><button class="btn-collapse" mat-button color="basic">About Me</button></li> -->
-          <li><button class="btn-collapse" mat-button color="basic" [routerLink]="[menuRutas[1].ruta]" routerLinkActive="active">Blog</button></li>
-            <li><button class="btn-collapse" mat-button color="basic" disabled>Contact</button></li>
+          <li><button class="btn-collapse" mat-button color="basic" [routerLink]="[menuRutas[1].ruta]" routerLinkActive="active" disabled="">Blog</button></li>
+            <li><button class="btn-collapse" mat-button color="basic" disabled>Contacto</button></li>
           </ul>
     </div>
-  
+
   </mat-toolbar>
 </div>
 
-  
+
