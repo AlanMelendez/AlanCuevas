@@ -1,0 +1,3 @@
+
+#Comando para hacer deploy
+ng deploy --base-href=/AlanCuevas/
