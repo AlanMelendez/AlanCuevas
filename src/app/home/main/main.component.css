@@ -33,6 +33,12 @@
     margin-bottom: 70px;
 }
 
+.img-ine{
+  width: 200px;
+    height: 150px;
+    margin-bottom: 70px;
+}
+
 
  .img-apdacademics{
     width: 150px !important;
@@ -161,7 +167,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 

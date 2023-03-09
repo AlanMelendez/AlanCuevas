@@ -230,8 +230,8 @@
       <div class="container-img-card">
         <img
           mat-card-image
-          class="img-cards-habilites img-ujed"
-          src="assets/logo-ujed.svg"
+          class="img-cards-habilites img-ine"
+          src="assets/ine.png"
           alt="logo-ujed"
         />
       </div>
@@ -246,11 +246,10 @@
         </ul>
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button class="btn btn-proyect-item">Leer mas</button>
+        <button mat-button class="btn btn-proyect-item" (click)="alertCredenciales()">Leer mas</button>
         <button
           mat-button
           class="btn btn-proyect-item"
-          (click)="visitar('cut')"
         >
           Visitar web
         </button>
@@ -288,11 +287,11 @@
         </ul> -->
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button class="btn btn-proyect-item">Leer mas</button>
+        <button type="button" mat-button class="btn btn-proyect-item" >Leer mas</button>
         <button
           mat-button
           class="btn btn-proyect-item"
-          (click)="visitar('cut')"
+
         >
           Visitar web
         </button>
