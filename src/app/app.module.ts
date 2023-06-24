@@ -22,7 +22,10 @@ import { SideMenuModule } from './side-menu/side-menu.module';
     MaterialModule,
     FontAwesomeModule,
     SideMenuModule
-    
+
+  ],
+  exports:[
+    NavbarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,7 +2,8 @@
 .toolbar-nav{
     display: flex;
     justify-content: space-evenly;
-   
+    background-color: black !important;
+
 }
 
 .boxes .list-elem-nav{
@@ -25,15 +26,15 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-   
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-   
-    
-    
-   
+
+
+
+
 }
 @media only screen and (min-width: 768px) {
     /* .nav-menu ul{
@@ -43,11 +44,11 @@
         width: 100%;
         height: 65vh;
         right: 0;
-    
+
         background-color: #212121;
-        
+
     }
-    
+
     .nav-menu ul li{
         padding: 2rem;
         display: flex;
@@ -55,7 +56,7 @@
         margin: 0;
     } */
 
-   
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -71,17 +72,17 @@
         top: 50px;
         width: 100%;
         /* Aqui le cambie 50% , tenia 50vh -> aver si se arregla la superpocision */
-        height: 50%; 
+        height: 50%;
         right: 0;
-    
-        background-color: #212121;
+
+        background-color: black;
     }
     .activar .nav{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
     .activar ul li{
         display: flex;
@@ -90,13 +91,13 @@
         display: flex;
         justify-content: center;
         margin: 0;
-    } 
+    }
    .btn-menu{
         display: flex;
         justify-content: flex-end;
         width: 100%;
    }
-   
+
 
     .btn-collapse{
         width: 50%;
@@ -108,12 +109,12 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
-   
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    
+
 }

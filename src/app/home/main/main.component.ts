@@ -12,6 +12,7 @@ export class MainComponent implements OnInit {
   constructor(public router: Router) { }
 
   ngOnInit(): void {
+    
   }
 
   visitar(pagina:string){
